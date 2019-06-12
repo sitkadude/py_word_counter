@@ -1,6 +1,10 @@
 # Prompt for file to run in program.
 fname = input('Enter File: ')
-handle = open(fname)
+try:
+    handle = open(fname)
+except:
+    print('File', fname, 'cannot be found.')
+    quit()
 
 # Creates dictionary.
 di = dict()
