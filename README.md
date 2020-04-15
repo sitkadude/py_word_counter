@@ -1,3 +1,5 @@
+# WORD COUNTER
+
 A word counting program for .txt files.
 
 INSTRUCTIONS:<br/>
